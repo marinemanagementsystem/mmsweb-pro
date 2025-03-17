@@ -1,0 +1,36 @@
+/mms-website/
+│
+├── index.php                # Main site entry point
+├── admin/                   # Admin panel directory
+│   ├── index.php            # Admin login
+│   ├── dashboard.php        # Admin dashboard
+│   ├── content-editor.php   # Content management
+│   ├── settings.php         # Site settings
+│   └── includes/            # Admin panel includes
+│       ├── header.php
+│       ├── footer.php
+│       └── functions.php
+│
+├── config/                  # Configuration files
+│   └── database.php         # Database connection
+│
+├── includes/                # Core PHP includes
+│   ├── init.php             # Initialization file
+│   ├── functions.php        # Helper functions
+│   ├── content-loader.php   # Dynamic content loading
+│   └── languages.php        # Multilingual support
+│
+├── assets/                  # Frontend assets
+│   ├── css/
+│   │   ├── style.css        # Main stylesheet
+│   │   └── admin.css        # Admin panel styles
+│   ├── js/
+│   │   ├── main.js          # Main JavaScript
+│   │   ├── animations.js    # Animation effects
+│   │   ├── admin.js         # Admin functionality
+│   │   └── language.js      # Language switching
+│   ├── images/              # Site images
+│   └── fonts/               # Custom fonts
+│
+└── db/                      # Database files
+    └── mms_content.sql      # Initial database structure

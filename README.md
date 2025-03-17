@@ -1,2 +1,2 @@
 # mmsweb-pro
- MMS Tanıtım
+ Marine Management System Tanıtım Web Sitesi
